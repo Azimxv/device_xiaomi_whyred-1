@@ -51,11 +51,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="coral-user 10 QQ2A.200501.001.B2 6352890 release-keys"
 
 HAVOC_BUILD_TYPE := Azimxv-Edition
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=AzimovHero
 #Build FP to be picked by both system and vendor
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys"
-
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
