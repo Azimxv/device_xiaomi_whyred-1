@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_whyred.mk
+    $(LOCAL_DIR)/aosip_whyred.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_whyred-user \
+    aosip_whyred-userdebug \
+    aosip_whyred-eng
