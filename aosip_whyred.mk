@@ -46,7 +46,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
 
-
 AOSIP_BUILDTYPE := Azimxv-Edition
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.aosip.maintainer=AzimovHero
