@@ -51,6 +51,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.aosip.maintainer=AzimovHero
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys"
+    PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200805.001 6578210 release-keys"
 
-BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+# Build FP to be picked by both system and vendor
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
+PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-08-05
