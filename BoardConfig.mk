@@ -38,7 +38,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_HW_DISK_ENCRYPTION := true
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
+TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 TARGET_KERNEL_CONFIG := whyred_defconfig
 
 # Manifest
